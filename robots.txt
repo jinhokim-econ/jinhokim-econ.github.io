@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jinhokim-econ.github.io/al-folio/sitemap.xml
+Sitemap: https://jinhokim-econ.github.io/sitemap.xml
