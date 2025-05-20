@@ -7,3 +7,11 @@
 
 "Vision":
   color: "#009f36"
+
+"RefiIneq":
+  color: "#ffffff"
+  url: "<img src='/assets/img/refi_1.png' style='height:100px; width:auto; background-color:#ffffff;'>"
+
+"ConsRes":
+  color: "#ffffff"
+  url: "<img src='/assets/img/cons_1.png' style='height:100px; width:auto; background-color:#ffffff;'>"

@@ -15,7 +15,9 @@
               {{ venue_style }}
             {% endif -%}
           >
-            {% if site.data.venues[entry.abbr].url %}
+            {% if site.data.venues[entry.abbr].url contains '<img' %}
+              {{ site.data.venues[entry.abbr].url | replace: '<img', '<img style="height: 100px; width: auto; background-color: white;"' }}
+            {% elsif site.data.venues[entry.abbr].url %}
               <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
             {% else %}
               <div>{{- entry.abbr -}}</div>

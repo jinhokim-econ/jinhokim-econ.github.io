@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: <a href='#'>University of California, Davis</a> jnhkim@ucdavis.edu
 
