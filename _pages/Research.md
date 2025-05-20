@@ -3,6 +3,7 @@ layout: page
 title: Research
 permalink: /Research/
 nav: false
+nav_order: 2
 collection: Research
 ---
 
