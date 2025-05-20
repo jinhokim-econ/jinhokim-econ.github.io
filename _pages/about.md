@@ -27,7 +27,7 @@ latest_posts:
 
 I am a Ph.D. candidate in the Department of Economics at UC Davis. 
 
-My research focuses on household finance, mortgage markets, and monetary policy. Before joining the Ph.D. program, I worked as an economist at the Bank of Korea, where I was involved in policy research and analysis on international trade.
+My research focuses on household finance, mortgage markets, and monetary policy. Before joining the Ph.D. program, I worked as an economist at the [Bank of Korea](https://www.bok.or.kr/eng), where I was involved in policy research and analysis on international trade.
 
 I will be on the job market in the 2026–2027 academic year.
 
