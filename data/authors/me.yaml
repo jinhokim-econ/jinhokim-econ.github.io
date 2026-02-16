@@ -23,10 +23,10 @@ affiliations:
 
 links:
   - icon: at-symbol
-    url: mailto:jinho@example.com
+    url: mailto:contact@example.com
     label: E-mail Me
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/username/
   - icon: hero/document-text
     url: /uploads/cv.pdf
     label: Download CV
@@ -43,10 +43,14 @@ education:
     start: 2020-09-01
     summary: |
       Research on household mortgage refinancing, monetary policy transmission, and economic heterogeneity.
-  - degree: MA/BA Economics
-    institution: Previous University
-    start: 2015-09-01
+  - degree: MA Economics
+    institution: [University Name]
+    start: 2018-09-01
     end: 2020-06-30
+  - degree: BA Economics
+    institution: [University Name]
+    start: 2014-09-01
+    end: 2018-06-30
 
 experience:
   - role: PhD Candidate
