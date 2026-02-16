@@ -18,7 +18,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/cv.pdf
       headings:
         about: ''
         education: ''
@@ -42,9 +42,9 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research focuses on household mortgage refinancing behavior and its implications for monetary policy transmission. I investigate how heterogeneity and inequality across households affect their responses to policy changes.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        I apply quantitative methods from macroeconomics and finance to understand the role of housing and mortgage markets in the broader economy.
 
         Please reach out to collaborate 😃
     design:
