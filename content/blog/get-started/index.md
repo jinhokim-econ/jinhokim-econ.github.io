@@ -54,12 +54,6 @@ Welcome 👋
 > [!TIP]+ Quick Start Guide
 > New to Hugo Blox? Follow these steps to get your site up and running in minutes!
 
-- 👉 [**Create a new site**](https://hugoblox.com/templates/)
-- 📚 [**Personalize your site**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@LoreLabs_](https://x.com/LoreLabs_) [@GeorgeCushen](https://x.com/GeorgeCushen) #MadeWithHugoBlox
-- 💡 [Request a **feature** or report a **bug** for _Hugo Blox_](https://github.com/HugoBlox/kit/issues)
-- ⬆️ **Updating Hugo Blox?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/kit/releases)
 
 > [!IMPORTANT]
 > Remember to backup your site before making major updates!

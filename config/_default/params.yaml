@@ -1,17 +1,27 @@
 hugoblox:
   schema: "2.0"
   identity:
-    name: Dr. Jinho Kim
+    name: Jinho Kim
     type: person
     tagline: Economics PhD Candidate | UC Davis
     description: Jinho Kim is a PhD candidate in Economics at UC Davis studying household mortgage refinancing, monetary policy transmission, and inequality.
+    organization: UC Davis
   theme:
-    mode: system
-    pack: minimal
+    mode: light
+    pack: contrast
     colors:
-      primary: ""
-      secondary: ""
+      primary: "#0f3599"
+      secondary: "#ffffff"
+      neutral: "gray"
+    colors_light:
       neutral: ""
+      primary: ""
+    surfaces:
+      header: {}
+    colors_dark:
+      neutral: ""
+      secondary: "#0e172a"
+      primary: slate
   typography:
     font: sans
     size: md
@@ -28,9 +38,11 @@ hugoblox:
     theme_toggle: true
   footer:
     style: minimal
-    language_switcher: true
+    language_switcher: false
   copyright:
     notice: © {year} {name}
+    license:
+      type: custom
   content:
     math:
       enable: false

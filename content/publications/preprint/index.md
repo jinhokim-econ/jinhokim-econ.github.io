@@ -2,25 +2,18 @@
 title: Refinancing Inequality and Montery Transmission Channel
 authors:
   - me
-date: 2025-12-07T00:00:00Z
-publishDate: 2017-01-01T00:00:00Z
+#date: 2025-12-07T00:00:00Z
+#publishDate: 2017-01-01T00:00:00Z
 publication_types:
   - article
 publication: ""
 publication_short: ""
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
-  tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin
-  condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus
-  urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci,
-  mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in
-  dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum
-  arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla
-  eleifend gravida.
+abstract: This paper documents substantial mortgage refinancing heterogeneity across income groups and quantifies its implications for the transmission of monetary policy. Using a loan-level panel data, I show that refinancing inequality appears in both the _intensity_ and _timing_ of refinancing -- the bottom income quintile refinances at two-thirds the rate of the top quintile and faces markedly longer delays, even when refinancing is financially beneficial. These gaps persist even after controlling for income- and time-varying measures of lender credit tightness. The associated unrealized savings are large, exceeding 8.4% of monthly income for the bottom quintile. I develop a structural mortgage refinancing model that decomposes refinancing frictions into two distinct channels—inattention and hassle cost—and allows both frictions to vary by income group. The model matches the observed refinancing inequality, unlike homogeneous-friction benchmarks. Counterfactual experiments show that reducing inattention frictions for low-income households would amplify the effects of a policy rate cut by 7.1% in consumption over five years. Refinancing inequality dampens monetary transmission, and mitigating inattention strengthens the real effects of rate cuts.
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere
   tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin
   condimentum.
-tags:
-  - Large Language Models
+#tags:
+#  - Large Language Models
 featured: true
 hugoblox:
   ids:
@@ -32,19 +25,20 @@ links:
   - type: slides
     url: https://www.slideshare.net/
 image:
-  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/s9CC2SKySJM)"
+  #caption: "Mortgage hazard rate by rate incentive"
   focal_point: ""
-  preview_only: false
+  preview_only: true
 projects:
   - internal-project
 slides: ""
 draft: false
 
 ---
-
+<!-- 
 This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.
 
 > [!NOTE]
 > Create your slides in Markdown - click the *Slides* button to check out the example.
 
 Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+-->
