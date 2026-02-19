@@ -24,7 +24,7 @@ hugoblox:
       primary: slate
   typography:
     font: sans
-    size: md
+    size: lg
   layout:
     radius: md
     spacing: comfortable

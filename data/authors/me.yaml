@@ -29,7 +29,17 @@ interests:
   - "Household Finance"
   - "Mortgage Markets"
   - "Monetary Policy"
-education: []
+education:
+  - degree: "PhD in Economics"
+    institution: "University of California, Davis"
+    start: "2021"
+    end: ""
+    summary: "CA, USA"
+  - degree: "B.A in Economics"
+    institution: "Yonsei University"
+    start: ""
+    end: "2013"
+    summary: "Seoul, South Korea"
 experience: []
 skills:
   - name: "Technical Skills"
