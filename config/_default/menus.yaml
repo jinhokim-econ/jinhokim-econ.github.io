@@ -8,19 +8,15 @@ main:
     identifier: 3473bc89
     url: /
     weight: 10
-  - name: Projects
-    identifier: 4d9c94cb
-    url: projects/
-    weight: 20
-  - name: Courses
-    identifier: 057b2e6c
-    url: courses/
-    weight: 30
   - name: Research
     identifier: bcf4c721
-    url: /#papers
+    url: /#research
     weight: 40
   - name: Discussion
     identifier: 183655cb
-    url: /#talks
+    url: /#discussion
     weight: 50
+  #- name: Courses
+  #  identifier: 057b2e6c
+  #  url: /#courses
+  #  weight: 30

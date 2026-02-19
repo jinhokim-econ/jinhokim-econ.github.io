@@ -61,6 +61,7 @@ sections:
   #    view: card  # article-grid
   #    columns: 2
   - block: collection
+    id: research
     content:
       title: Working Papers
       text: ''
@@ -71,7 +72,7 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
+    id: discussion
     content:
       title: Discussions
       filters:
