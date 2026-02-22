@@ -36,3 +36,10 @@ a[href*="whatsapp:"] {
 .share, .social, .social-links, .page-share, .page-social, .share-buttons {
   display: none !important;
 }
+
+/* Hide the Education subsection inside the top resume-biography-3 block only.
+   This keeps the timeline/experience section intact while removing the
+   duplicate education grid that appears near the top of the homepage. */
+#section-resume-biography-3 .mb-16 {
+  display: none !important;
+}
