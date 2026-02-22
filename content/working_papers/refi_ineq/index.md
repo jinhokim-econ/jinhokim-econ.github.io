@@ -2,7 +2,7 @@
 title: Refinancing Inequality and Montery Transmission Channel
 authors:
   - me
-date: 2025-12-07T00:00:00Z
+date: 2026-01-07T00:00:00Z
 #publishDate: 2017-01-01T00:00:00Z
 publication_types:
   - article

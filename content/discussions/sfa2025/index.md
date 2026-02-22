@@ -36,14 +36,13 @@ featured: false
 
 links:
   - type: slides
+    url: "ValueOfMortgageChoice_Discussion_JinhoKim.pdf"
 
 #image:
 #  caption: 'Mortgage Choice and Financial Stability'
 #  focal_point: Right
 
 #links:
-#  - type: slides
-#    url: "ValueOfMortgageChoice_Discussion_JinhoKim.pdf"
 #  - icon: book-open
 #    name: Paper Discussion
 #    url: https://doi.org/

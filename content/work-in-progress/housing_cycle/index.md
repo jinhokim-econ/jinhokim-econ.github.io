@@ -11,12 +11,14 @@ authors:
 #date: "2025-09-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-01-01T00:00:00Z"
+publishDate: "2026-01-01T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ["article-journal"]  # -> cite.bib 이 CITE 버튼을 누르면 copy됨
+#publication_types: ["article-journal"]  # -> cite.bib 이 CITE 버튼을 누르면 copy됨
+publication_types:
+  - article
 
 
 # Publication name and optional abbreviated publication name.

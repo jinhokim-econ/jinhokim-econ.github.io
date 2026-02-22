@@ -7,16 +7,16 @@ main:
   - name: Bio
     identifier: 3473bc89
     url: /
-    weight: 10
+    weight: 20
   - name: Research
     identifier: bcf4c721
     url: /#research
-    weight: 40
-  - name: Discussion
+    weight: 30
+  - name: Discussions
     identifier: 183655cb
-    url: /#discussion
+    url: /#discussions
+    weight: 40
+  - name: Teaching
+    identifier: 057b2e6c
+    url: /#teaching
     weight: 50
-  #- name: Courses
-  #  identifier: 057b2e6c
-  #  url: /#courses
-  #  weight: 30

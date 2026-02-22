@@ -21,3 +21,18 @@
 .view-citation .pub-abstract p {
   margin: 0;
 }
+
+/* Hide site-wide social/share icons (X/Twitter, Facebook, LinkedIn, WhatsApp, mailto)
+   This is a quick, reversible way to remove the share buttons and author contact
+   icons from the page footers. Remove these rules to restore icons. */
+a[href*="twitter.com"],
+a[href*="x.com"],
+a[href*="facebook.com"],
+a[href*="whatsapp:"] {
+  display: none !important;
+}
+
+/* Generic fallback: hide common share/container classes if present */
+.share, .social, .social-links, .page-share, .page-social, .share-buttons {
+  display: none !important;
+}

@@ -34,13 +34,23 @@ education:
     institution: "University of California, Davis"
     start: "2021"
     end: ""
-    summary: "CA, USA"
+    summary: "Davis, CA, USA"
   - degree: "B.A in Economics"
     institution: "Yonsei University"
     start: ""
     end: "2013"
     summary: "Seoul, South Korea"
-experience: []
+experience:
+  - role: "Economist"
+    org: "Bank of Korea"
+    start: "2014"
+    end: "2021"
+    summary: "Authored policy papers on trade and labor at the Bank of Korea; produced trade analyses for the Monetary Policy Report and Economic Outlook report. Placed in the highest performance tier (top 10%) in cumulative evaluations.; Annual Thesis Competition winner."
+  #- role: "Loan Officer"
+  #  org: "The Export-Import Bank of Korea"
+  #  start: "2013"
+  #  end: "2013"
+  #  summary: "Conducted financial due diligence for a $400M LNG project finance deal in Indonesia and contributed to syndicated loan structuring."
 skills:
   - name: "Technical Skills"
     items:
