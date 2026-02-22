@@ -1,0 +1,10 @@
+slug: "hyunseo-park"
+name:
+  display: "Hyunseo Park"
+role: ""
+bio: ""
+schema: "hugoblox/author/v1"
+links:
+  - icon: "hero/globe"
+    url: "https://sites.google.com/ucdavis.edu/hyunseopark/"
+    label: "Website"

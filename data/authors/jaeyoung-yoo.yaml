@@ -1,0 +1,10 @@
+slug: "jaeyoung-yoo"
+name:
+  display: "Jaeyoung Yoo"
+role: ""
+bio: ""
+links:
+  - icon: "hero/globe"
+    url: "https://sites.google.com/view/jaeyyoo/home"
+    label: "Website"
+schema: "hugoblox/author/v1"

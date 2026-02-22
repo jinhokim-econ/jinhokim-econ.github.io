@@ -2,8 +2,8 @@
 title: "Demographics and Housing Cycle"
 authors:
 - me
-- Hyunseo Park
-- Jaeyoung Yoo
+- hyunseo-park
+- jaeyoung-yoo
 - Yungu Cho
 #author_notes:
 #- "Equal contribution"
