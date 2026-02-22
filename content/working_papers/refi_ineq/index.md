@@ -18,7 +18,7 @@ featured: true
 #    arxiv: 1512.04133v1
 links:
   - type: pdf
-    url: "refi.pdf"
+    url: "RefiInequality_JinhoKim_Feb2026.pdf"
     #provider: arxiv
     #id: 1512.04133v1
   #- type: slides
