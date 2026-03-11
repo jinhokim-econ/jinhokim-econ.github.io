@@ -122,6 +122,8 @@ sections:
           <a class="hb-attachment-link hb-attachment-link-large" href="/teaching/phd-macro/200E_Section_Week4_balanced_growth_path.pdf">Week 4 — Balanced Growth Path</a>
           <a class="hb-attachment-link hb-attachment-link-large" href="/teaching/phd-macro/200E_Section_Week6_investment_adjustment.pdf">Week 6 — RBC Extension: Investment Adjustment Cost</a>
           <a class="hb-attachment-link hb-attachment-link-large" href="/teaching/phd-macro/200E_Section_Week7_MIU.pdf">Week 7 — Money-in-Utility Model</a>
+          <a class="hb-attachment-link hb-attachment-link-large" href="/teaching/phd-macro/200E_Section_Week8_MP_in_MIU.pdf">Week 8 — Monetary Policy in MIU Model</a>
+          <a class="hb-attachment-link hb-attachment-link-large" href="/teaching/phd-macro/200E_Section_Week9_NewKeynesian.pdf">Week 9 — New Keynesian Model</a>
         </p>
 
         #### Intermediate Macroeconomics, Principles of Macro / Microeconomics (2021–2026)
