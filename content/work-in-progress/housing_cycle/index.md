@@ -42,8 +42,8 @@ display:
 #    arxiv: 1512.04133v1
 
 links:
-  - type: slides
-    url: "Housing_Slides.pdf"
+  - type: pdf
+    url: "Housingcycle_May2026.pdf"
   #- type: code
   #  url: https://github.com/HugoBlox/kit
   #- type: dataset
