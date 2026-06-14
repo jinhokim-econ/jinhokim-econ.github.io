@@ -43,3 +43,14 @@ a[href*="whatsapp:"] {
 #section-resume-biography-3 .mb-16 {
   display: none !important;
 }
+
+/* Restore markers for markdown bullet lists in the Experience cards. */
+#section-resume-experience ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+#section-resume-experience li {
+  margin-top: 0.35rem;
+}

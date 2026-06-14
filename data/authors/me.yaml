@@ -34,7 +34,7 @@ education:
     start: "2021"
     end: ""
     summary: "Davis, CA, USA"
-  - degree: "B.A in Economics"
+  - degree: "B.A. in Economics"
     institution: "Yonsei University"
     start: ""
     end: "2013"
@@ -44,7 +44,10 @@ experience:
     org: "Bank of Korea"
     start: "2014"
     end: "2021"
-    summary: "Authored policy papers on external sector and labor market, with regular contributions to the Monetary Policy Report and Economic Outlook; Ranked in the top performance tier in cumulative annual evaluations; Annual Thesis Competition winner."
+    summary: |-
+      - Authored policy papers on the external sector and labor market, with regular contributions to the *Monetary Policy Report* and *Economic Outlook*.
+      - Ranked in the top performance tier in cumulative annual evaluations.
+      - Won the Annual Thesis Competition and received the Doctoral Study Abroad Scholarship.
   #- role: "Loan Officer"
   #  org: "The Export-Import Bank of Korea"
   #  start: "2013"
