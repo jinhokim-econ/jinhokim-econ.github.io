@@ -82,4 +82,4 @@ projects: []
 #   Otherwise, set `slides: ""`.
 #slides: ""
 ---
-*Manuscript forthcoming. Draft available upon request.*
+<p class="text-sm italic">Manuscript forthcoming. Draft available upon request.</p>

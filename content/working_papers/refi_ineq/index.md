@@ -44,7 +44,7 @@ featured: true
 draft: false
 
 ---
-*Manuscript forthcoming. Draft available upon request.*
+<p class="text-sm italic">Manuscript forthcoming. Draft available upon request.</p>
 
 <!-- 
 This work is driven by the results in my [previous paper](/publications/conference-paper/) on LLMs.

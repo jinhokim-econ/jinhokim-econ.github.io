@@ -125,6 +125,8 @@ sections:
           <a class="hb-attachment-link hb-attachment-link-large" href="/teaching/phd-macro/200E_Section_Week8_MP_in_MIU.pdf">Week 8 — Monetary Policy in MIU Model</a>
           <a class="hb-attachment-link hb-attachment-link-large" href="/teaching/phd-macro/200E_Section_Week9_NewKeynesian.pdf">Week 9 — New Keynesian Model</a>
         </p>
+
+        #### Intermediate Macroeconomics, Principles of Macro/Microeconomics, Money, Banks, and Financial Institutions (2021–2026)
   - block: markdown
     id: contact
     content:
