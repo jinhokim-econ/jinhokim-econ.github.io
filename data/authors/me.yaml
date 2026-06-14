@@ -11,13 +11,13 @@ name:
 postnominals:
   - "PhD"
 role: "Ph.D. Candidate in Economics"
-bio: "I am a PhD candidate in Economics at UC Davis. My research is in macroeconomics, with a focus on household finance, monetary policy, and real estate. Before joining the PhD program, I worked as an economist at the Bank of Korea."
+bio: "I am a PhD candidate in Economics at UC Davis. My research is in macroeconomics, with a focus on household finance and real estate. Before joining the PhD program, I worked as an economist at the Bank of Korea."
 affiliations:
   - name: "University of California, Davis"
     url: "https://www.ucdavis.edu/"
 links:
   - icon: "hero/envelope"
-    url: "mailto:jnhkim@ucdavis.edu"
+    url: "mailto:jinho.kim.econ@gmail.com"
     label: "Email"
   - icon: "custom/cv"
     url: "/uploads/CV.pdf"
@@ -27,8 +27,7 @@ links:
 interests:
   - "Macroeconomics"
   - "Household Finance"
-  - "Mortgage Markets"
-  - "Monetary Policy"
+  - "Real Estate"
 education:
   - degree: "PhD in Economics"
     institution: "University of California, Davis"
@@ -45,7 +44,7 @@ experience:
     org: "Bank of Korea"
     start: "2014"
     end: "2021"
-    summary: "Authored policy papers on trade and labor at the Bank of Korea; Produced trade analyses for the Monetary Policy Report and Economic Outlook report; Placed in the highest performance tier (top 10%) in cumulative evaluations.; Annual Thesis Competition winner."
+    summary: "Authored policy papers on external sector and labor market, with regular contributions to the Monetary Policy Report and Economic Outlook; Ranked in the top performance tier in cumulative annual evaluations; Annual Thesis Competition winner."
   #- role: "Loan Officer"
   #  org: "The Export-Import Bank of Korea"
   #  start: "2013"

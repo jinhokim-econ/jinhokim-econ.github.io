@@ -125,8 +125,18 @@ sections:
           <a class="hb-attachment-link hb-attachment-link-large" href="/teaching/phd-macro/200E_Section_Week8_MP_in_MIU.pdf">Week 8 — Monetary Policy in MIU Model</a>
           <a class="hb-attachment-link hb-attachment-link-large" href="/teaching/phd-macro/200E_Section_Week9_NewKeynesian.pdf">Week 9 — New Keynesian Model</a>
         </p>
+  - block: markdown
+    id: contact
+    content:
+      title: Contact Details
+      text: |-
+        <div class="h-4"></div>
 
-        #### Intermediate Macroeconomics, Principles of Macro / Microeconomics (2021–2026)
+        <p class="text-center">
+          <strong>Email:</strong>
+          <a href="mailto:jinho.kim.econ@gmail.com">jinho.kim.econ@gmail.com</a>
+        </p>
+
   #- block: collection
   #  id: news
   #  content:

@@ -20,3 +20,7 @@ main:
     identifier: 057b2e6c
     url: /#teaching
     weight: 50
+  - name: Contact
+    identifier: contact
+    url: /#contact
+    weight: 60
