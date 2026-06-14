@@ -128,6 +128,40 @@ sections:
 
         #### Intermediate Macroeconomics, Principles of Macro/Microeconomics, Money, Banks, and Financial Institutions (2021–2026)
   - block: markdown
+    id: references
+    content:
+      title: References
+      text: |-
+        <div class="not-prose grid w-full grid-cols-1 gap-6 md:grid-cols-2">
+          <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-900">
+            <div class="text-lg font-bold text-gray-900 dark:text-white">James Cloyne <span class="text-sm font-semibold text-gray-500 dark:text-gray-400">(Chair)</span></div>
+            <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Professor of Economics</div>
+            <div class="text-base text-gray-600 dark:text-gray-300">University of California, Davis</div>
+            <a class="mt-4 inline-block text-base font-semibold text-primary-600 underline dark:text-primary-400" href="mailto:jcloyne@ucdavis.edu">jcloyne@ucdavis.edu</a>
+          </div>
+
+          <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-900">
+            <div class="text-lg font-bold text-gray-900 dark:text-white">Òscar Jordà</div>
+            <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Professor of Economics</div>
+            <div class="text-base text-gray-600 dark:text-gray-300">University of California, Davis</div>
+            <a class="mt-4 inline-block text-base font-semibold text-primary-600 underline dark:text-primary-400" href="mailto:ojorda@ucdavis.edu">ojorda@ucdavis.edu</a>
+          </div>
+
+          <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-900">
+            <div class="text-lg font-bold text-gray-900 dark:text-white">Nicolas Caramp</div>
+            <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Assistant Professor of Economics</div>
+            <div class="text-base text-gray-600 dark:text-gray-300">University of California, Davis</div>
+            <a class="mt-4 inline-block text-base font-semibold text-primary-600 underline dark:text-primary-400" href="mailto:ncaramp@ucdavis.edu">ncaramp@ucdavis.edu</a>
+          </div>
+
+          <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-900">
+            <div class="text-lg font-bold text-gray-900 dark:text-white">Sanjay R. Singh</div>
+            <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Associate Professor of Economics</div>
+            <div class="text-base text-gray-600 dark:text-gray-300">University of California, Davis</div>
+            <a class="mt-4 inline-block text-base font-semibold text-primary-600 underline dark:text-primary-400" href="mailto:sjrsingh@ucdavis.edu">sjrsingh@ucdavis.edu</a>
+          </div>
+        </div>
+  - block: markdown
     id: contact
     content:
       title: Contact Details
