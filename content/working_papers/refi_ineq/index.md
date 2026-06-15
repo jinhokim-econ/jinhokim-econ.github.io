@@ -1,5 +1,5 @@
 ---
-title: Refinancing Inequality and Monetary Transmission Channel
+title: "Who Captures the Rate Cut? Refinancing Heterogeneity and the Transmission of Monetary Policy"
 authors:
   - me
 date: 2026-01-07T00:00:00Z
