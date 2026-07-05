@@ -77,6 +77,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
+    env:
+      # TODO: remove once actions/deploy-pages ships native Node 24 support.
+      ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
