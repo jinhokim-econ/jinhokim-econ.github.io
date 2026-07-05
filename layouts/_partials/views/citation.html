@@ -4,6 +4,22 @@
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 {{ $summary := partial "functions/get_summary" $item }}
 {{ $summary = $summary | page.RenderString }}
+{{ $coauthor_text := "" }}
+{{ with $item.Params.coauthors }}
+  {{ $coauthor_text = . }}
+{{ else }}
+  {{ $coauthor_names := slice }}
+  {{ range $item.Params.authors }}
+    {{ $slug := . }}
+    {{ if ne $slug "me" }}
+      {{ $profile := partial "functions/get_author_profile" (dict "slug" $slug "title" $slug) }}
+      {{ $coauthor_names = $coauthor_names | append $profile.title }}
+    {{ end }}
+  {{ end }}
+  {{ if gt (len $coauthor_names) 0 }}
+    {{ $coauthor_text = printf "with %s" (delimit $coauthor_names ", " " and ") }}
+  {{ end }}
+{{ end }}
 
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
@@ -11,14 +27,14 @@
   {{/* APA Style */}}
   {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
 
-  <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}
-  </span>
-  ({{- $year -}}).
   {{ if $item.Params.no_detail_page }}
   <span>{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
   {{ else }}
   <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
+  {{ end }}
+  ({{- $year -}}).
+  {{ with $coauthor_text }}
+  <span class="pub-coauthors italic">{{ . | markdownify }}</span>
   {{ end }}
   {{ if $item.Params.publication_short }}
     {{- $item.Params.publication_short | markdownify -}}.
@@ -43,13 +59,13 @@
   {{/* MLA Style */}}
   {{ else }}
 
-  <span class="article-metadata li-cite-author">
-    {{ partial "page_metadata_authors" $item }}.
-  </span>
   {{ if $item.Params.no_detail_page }}
   <span>{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
   {{ else }}
   <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
+  {{ end }}
+  {{ with $coauthor_text }}
+  <span class="pub-coauthors italic">{{ . | markdownify }}</span>
   {{ end }}
   {{ if $item.Params.publication_short }}
     {{- $item.Params.publication_short | markdownify -}},

@@ -15,7 +15,7 @@ location: Oralndo, Florida, USA
 
 summary: This is my discussion of the paper **["The Value of Mortgage Choice"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311)** by Boutros, Clara, and Kartashova (2024), presented at the SFA Annual Meeting 2025.
 abstract: |
-  This is my discussion of the paper **["The Value of Mortgage Choice"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311)** by Boutros, Clara, and Kartashova (2024), presented at the SFA Annual Meeting 2025.
+  This is my discussion of the paper **["The Value of Mortgage Choice"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311)** by Boutros, Clara, and Kartashova (2024).
 
 # Talk start and end times.
 #event_start: '2025-11-19T09:00:00Z'
