@@ -2,7 +2,7 @@
 title: "Demographics and Housing Cycle"
 authors:
 - me
-- Yungu Cho
+- yungu-cho
 - hyunseo-park
 - jaeyoung-yoo
 #author_notes:
