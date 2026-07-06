@@ -7,7 +7,6 @@ authors:
 date: 2026-01-01T00:00:00Z
 publication: ""
 publication_short: ""
-coauthors: "with James Cloyne and Òscar Jordà"
 summary: ""
 featured: true
 no_detail_page: true
