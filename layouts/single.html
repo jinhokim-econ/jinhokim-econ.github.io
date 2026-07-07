@@ -3,6 +3,7 @@
 {{ $pub_type_csl := "" }}
 {{ $pub_type_display := "" }}
 {{ $is_research_detail := in (slice "working_papers" "work-in-progress") .Section }}
+{{ $show_page_meta := not (or $is_research_detail (eq .Section "discussions")) }}
 {{ if .Params.publication_types }}
   {{ if reflect.IsSlice .Params.publication_types }}
     {{ $pub_type_csl = index .Params.publication_types 0 }}
@@ -68,18 +69,20 @@
 
       {{ $display_date := .Params.event_start | default .Date }}
       <div class="mt-4 mb-16">
+      {{ if $show_page_meta }}
       <div class="text-gray-500 dark:text-gray-300 text-sm flex items-center flex-wrap gap-y-2">
-        {{- if and (not $is_research_detail) $display_date (not .Params.hide_date) -}}
+        {{- if and $display_date (not .Params.hide_date) -}}
         <span class="mr-1">{{- (time $display_date) | time.Format (site.Params.hugoblox.locale.date_format | default ":date_long") -}}</span>
         {{- end -}}
 
-        {{ if and (not $is_research_detail) (ne .Params.reading_time false) }}
+        {{ if ne .Params.reading_time false }}
         <span class="mx-1">·</span>
         <span class="mx-1">
           {{ .ReadingTime }} {{ i18n "minute_read" }}
         </span>
         {{ end }}
         </div>
+        {{ end }}
 
         <div class="mt-3">
           {{ partial "page_links_div.html" . }}
