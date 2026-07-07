@@ -13,9 +13,9 @@ location: Denver, Colorado, USA
 #  postcode: '80202'
 #  country: United States
 
-summary: This is my discussion of the paper **["New Results on the Disparities between Same-Sex and Different-Sex Couples in the Home Mortgage Market"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597809)** by Nir Eilam and Yeonjoon Lee, presented at the WEAI 101st Annual Conference in Denver.
+summary: Discussion slides for **["New Results on the Disparities between Same-Sex and Different-Sex Couples in the Home Mortgage Market"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597809)** by Nir Eilam and Yeonjoon Lee, presented at the WEAI 101st Annual Conference in Denver, Colorado.
 abstract: |
-  This is my discussion of the paper **["New Results on the Disparities between Same-Sex and Different-Sex Couples in the Home Mortgage Market"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597809)** by Nir Eilam and Yeonjoon Lee, presented at the Western Economic Association International 101st Annual Conference in Denver, Colorado.
+  Discussion slides for **["New Results on the Disparities between Same-Sex and Different-Sex Couples in the Home Mortgage Market"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597809)** by Nir Eilam and Yeonjoon Lee.
 
 # Talk start and end times.
 #event_start: '2026-06-29T00:00:00Z'

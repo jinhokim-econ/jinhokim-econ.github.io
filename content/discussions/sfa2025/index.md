@@ -3,9 +3,9 @@ title: "A Discussion of 'The Value of Mortgage Choice'"
 date: '2025-11-19T00:00:00Z'
 
 event_name: Southern Finance Association Annual Meeting 2025
-event_url: https://www.the-sfa.org/
+event_url: https://southernfinance.org/wp-content/uploads/2025-SFA-Program.pdf
 
-location: Oralndo, Florida, USA
+location: Orlando, Florida, USA
 #address:
 #  street: ''
 #  city: Orlando
@@ -13,9 +13,9 @@ location: Oralndo, Florida, USA
 #  postcode: ''
 #  country: United States
 
-summary: This is my discussion of the paper **["The Value of Mortgage Choice"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311)** by Boutros, Clara, and Kartashova (2024), presented at the SFA Annual Meeting 2025.
+summary: Discussion slides for **["The Value of Mortgage Choice"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311)** by Boutros, Clara, and Kartashova (2024), presented at the SFA Annual Meeting 2025 in Orlando, Florida.
 abstract: |
-  This is my discussion of the paper **["The Value of Mortgage Choice"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311)** by Boutros, Clara, and Kartashova (2024), presented at the SFA Annual Meeting 2025.
+  Discussion slides for **["The Value of Mortgage Choice"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311)** by Boutros, Clara, and Kartashova (2024).
 
 # Talk start and end times.
 #event_start: '2025-11-19T09:00:00Z'
