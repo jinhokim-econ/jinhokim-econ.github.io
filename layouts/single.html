@@ -245,7 +245,7 @@
         {{ .Content }}
       </div>
 
-      {{ if not $is_research_detail }}
+      {{ if and (not $is_research_detail) (ne .Section "discussions") }}
         {{ partial "components/last-edited.html" . }}
       {{ end }}
 
