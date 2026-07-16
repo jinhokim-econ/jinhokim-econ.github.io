@@ -1,9 +1,11 @@
 ---
 # Leave the homepage title empty to use the site title
 title: 'Jinho Kim'
-summary: ''
+summary: 'Personal website of Jinho Kim, PhD candidate in Economics at the University of California, Davis. Research in macroeconomics, household finance, and real estate.'
 date: 2022-10-24
 type: landing
+seo:
+  title: Jinho Kim | Economics PhD Candidate at UC Davis
 
 design:
   # Default section spacing

@@ -1,10 +1,12 @@
 hugoblox:
   schema: "2.0"
+  seo:
+    title: Jinho Kim | Economics PhD Candidate at UC Davis
   identity:
     name: Jinho Kim
     type: person
     tagline: Economics PhD Candidate | UC Davis
-    description: Jinho Kim is a PhD candidate in Economics at UC Davis.
+    description: Personal website of Jinho Kim, PhD candidate in Economics at the University of California, Davis. Research in macroeconomics, household finance, and real estate.
     organization: UC Davis
   theme:
     mode: light
