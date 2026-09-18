@@ -12,7 +12,7 @@ abstract: >-
   Lower-income households are far less likely to capture the gains from refinancing when
   interest rates fall. 
   This paper shows why, and what it implies for the transmission of monetary policy.
-  In loan-level data, conditional on refinancing being financially
+  Conditional on refinancing being financially
   advantageous, bottom-income-quintile borrowers refinance 43 percent less often than the
   top quintile, wait more than twice as long to act, and respond 4.3 percentage points
   less, cumulatively over two quarters, to an identified monetary easing---yet the
