@@ -1,5 +1,5 @@
 ---
-title: "Who Captures the Rate Cut? Refinancing Heterogeneity and the Transmission of Monetary Policy"
+title: "Who Captures the Rate Cut? Endogenous Attention and the Refinancing Channel of Monetary Policy"
 authors:
   - me
 date: 2026-01-07T00:00:00Z
@@ -9,16 +9,29 @@ publication_types:
 publication: ""
 publication_short: ""
 abstract: >-
-  Mortgage refinancing responses to interest-rate declines differ sharply across the income distribution, and this heterogeneity materially weakens the transmission of monetary policy.
-  The cross-income differential appears in both the intensity and timing of refinancing; the bottom income quintile refinances at only 60--65\% of the top quintile’s rate and faces markedly longer delays even when refinancing is financially beneficial.
-  These gaps persist after controlling for lender-side credit tightness, borrower credit quality, and origination lender selection, and the associated unrealized savings exceed 7.6\% of monthly income for the bottom quintile.
-  I further find that the dynamic refinancing response to identified monetary-policy easing is concentrated among higher-income borrowers, with the top-to-bottom quintile differential peaking at 4.3 percentage points.
-  I develop a structural mortgage refinancing model that decomposes refinancing frictions into two distinct channels—inattention and hassle cost—and allows both to vary by income state.
-  A homogeneous-friction benchmark fails to reproduce the observed income gradient; income-state-dependent frictions are necessary to match the data.
-  A counterfactual intervention that raises refinancing attention by the magnitude documented in field evidence increases the five-year cumulative consumption response to a policy rate cut by approximately 10\%, with roughly 80\% of the additional response accruing to the bottom two income quintiles.
-  This concentration reflects the joint distribution of refinancing frictions and marginal propensities to consume, and implies that attention-targeted interventions can simultaneously strengthen monetary transmission and compress wealth inequality.
+  Lower-income households are far less likely to capture the gains from refinancing when
+  interest rates fall. 
+  This paper shows why, and what it implies for the transmission of monetary policy.
+  In loan-level data, conditional on refinancing being financially
+  advantageous, bottom-income-quintile borrowers refinance 43 percent less often than the
+  top quintile, wait more than twice as long to act, and respond 4.3 percentage points
+  less, cumulatively over two quarters, to an identified monetary easing---yet the
+  savings they forgo are far larger relative to their income.
+  I explain this discrepancy with a heterogeneous-agent model in which attention to
+  refinancing is a household choice: households trade off the dollar gain from
+  refinancing against the cost of monitoring their mortgage, so borrowers with small
+  balances optimally monitor less even when their gains relative to income are large.
+  Differences in dollar gains alone, however, cannot reproduce the observed income
+  profile; matching it requires the cost of attention to decline with income, consistent
+  with the financial-literacy gradient in survey data.
+  A refinancing notification policy calibrated to field-experimental evidence raises the
+  five-year consumption response to a rate cut by 10.8 percent, with gains concentrated
+  among lower-middle-income households.
+  The transmission of monetary policy thus depends on the joint distribution of
+  attention, refinancing gains, and marginal propensities to consume, not on the average
+  level of refinancing frictions alone.
 summary: >-
-  Mortgage refinancing responses to interest-rate declines differ sharply across income groups: lower-income borrowers refinance less often and with longer delays, leaving substantial unrealized savings. I show that monetary-policy easing generates a refinancing response concentrated among higher-income borrowers, and develop a structural model in which income-dependent inattention and hassle costs are necessary to match the data. Counterfactual attention interventions strengthen the consumption response to rate cuts, with most of the additional gains accruing to lower-income households.
+    Lower-income borrowers refinance less often and more slowly when interest rates fall, leaving substantial savings unrealized. I show that differences in refinancing gains and the cost of attention jointly explain this income gradient, and that reducing attention frictions can strengthen the consumption response to monetary easing.
 manuscript_note: "Manuscript forthcoming. Draft available upon request."
 title_note: "Job Market Paper"
 #tags:
