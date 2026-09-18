@@ -32,7 +32,7 @@ education:
   - degree: "PhD in Economics"
     institution: "University of California, Davis"
     start: "2021"
-    end: ""
+    end: "2026"
     summary: "Davis, CA, USA"
   - degree: "B.A. in Economics"
     institution: "Yonsei University"
@@ -42,8 +42,8 @@ education:
 experience:
   - role: "Economist"
     org: "Bank of Korea"
-    start: "2014"
-    end: "2021"
+    start: "2014–2021; 2026"
+    end: ""
     summary: |-
       - Authored policy papers on the external sector and labor market, with regular contributions to the *Monetary Policy Report* and *Economic Outlook*.
       - Ranked in the top performance tier in cumulative annual evaluations.
