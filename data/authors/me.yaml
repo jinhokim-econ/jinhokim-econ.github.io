@@ -10,11 +10,11 @@ name:
   pronouns: ""
 postnominals:
   - "PhD"
-role: "Ph.D. Candidate in Economics"
+role: "Economist"
 bio: "I am an economist at the Bank of Korea. I received my Ph.D. in Economics from the University of California, Davis in 2026. My research is in macroeconomics, with a focus on household finance and real estate."
 affiliations:
-  - name: "University of California, Davis"
-    url: "https://www.ucdavis.edu/"
+  - name: "Bank of Korea"
+    url: "https://www.bok.or.kr/eng/main/main.do"
 links:
   - icon: "hero/envelope"
     url: "mailto:jinho.kim.econ@gmail.com"
