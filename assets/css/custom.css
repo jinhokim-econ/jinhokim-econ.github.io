@@ -6,6 +6,11 @@
   margin-bottom: 1.5rem; /* 원하는 값으로 조절 */
 }
 
+.view-citation .pub-title {
+  font-size: 1.25rem;
+  line-height: 1.45;
+}
+
 .view-citation .pub-abstract {
   margin-top: 0.75rem;
   font-size: 1.0rem;
@@ -36,7 +41,7 @@
   background: transparent;
   color: var(--color-primary-600);
   cursor: pointer;
-  font-size: 0.75rem;
+  font-size: 0.875rem;
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: 0.08em;
@@ -161,17 +166,25 @@
 
 .view-citation .paper-presentations-heading {
   color: #3f3f46;
-  font-size: 0.82rem;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 1.4;
 }
 
 .view-citation .paper-presentations .discussion-details {
   margin-top: 0.3rem;
+  font-size: 1rem;
 }
 
 .dark .view-citation .paper-presentations-heading {
   color: #d4d4d8;
+}
+
+/* Match teaching course names to the working-paper title hierarchy. */
+#teaching h4 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.45;
 }
 
 /* Hide site-wide social/share icons (X/Twitter, Facebook, LinkedIn, WhatsApp, mailto)

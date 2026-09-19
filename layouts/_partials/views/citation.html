@@ -52,9 +52,9 @@
   {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
 
   {{ if not $title_has_link }}
-  <span>{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
+  <span class="pub-title">{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="pub-title italic">({{ . }})</span>{{ end }}.
   {{ else }}
-  <a href="{{ $title_url }}" class="underline">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
+  <a href="{{ $title_url }}" class="pub-title underline">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="pub-title italic">({{ . }})</span>{{ end }}.
   {{ end }}
   {{ if not $is_discussion }}({{- $year -}}).{{ end }}
   {{ with $coauthor_text }}
@@ -134,9 +134,9 @@
   {{ else }}
 
   {{ if not $title_has_link }}
-  <span>{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
+  <span class="pub-title">{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="pub-title italic">({{ . }})</span>{{ end }}.
   {{ else }}
-  <a href="{{ $title_url }}">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
+  <a href="{{ $title_url }}" class="pub-title">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="pub-title italic">({{ . }})</span>{{ end }}.
   {{ end }}
   {{ with $coauthor_text }}
   <span class="pub-coauthors italic">{{ . | markdownify }}</span>
