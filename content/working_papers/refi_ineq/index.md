@@ -34,6 +34,31 @@ summary: >-
     Lower-income borrowers refinance less often and more slowly when interest rates fall, leaving substantial savings unrealized. I show that differences in refinancing gains and the cost of attention jointly explain this income gradient, and that reducing attention frictions can strengthen the consumption response to monetary easing.
 manuscript_note: "Manuscript forthcoming. Draft available upon request."
 title_note: "Job Market Paper"
+presentations:
+  - event: "WEAI Annual Conference"
+    location: "Denver, USA"
+    date: "Jun. 2026"
+  - event: "AREUEA National Conference"
+    location: "Washington, D.C., USA"
+    date: "May 2026"
+  - event: "American Finance Association Annual Meeting (poster)"
+    location: "Philadelphia, USA"
+    date: "Jan. 2026"
+  - event: "Southern Finance Association Annual Meeting"
+    location: "Orlando, USA"
+    date: "Nov. 2025"
+  - event: "Financial Management Association Doctoral Consortium"
+    location: "Vancouver, Canada"
+    date: "Oct. 2025"
+  - event: "World Congress of the Econometric Society"
+    location: "Seoul, South Korea"
+    date: "Aug. 2025"
+  - event: "Journal of International Economics Summer School (poster)"
+    location: "University of Oxford"
+    date: "Jul. 2024"
+  - event: "Macro/International Lunchtime Presentation"
+    location: "UC Davis"
+    date: "May 2024; Mar. 2026"
 #tags:
 #  - Large Language Models
 featured: true

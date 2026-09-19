@@ -111,6 +111,17 @@
   <div class="pub-abstract">{{ $summary }}</div>
   {{ end }}
 
+  {{ with $item.Params.presentations }}
+  <div class="paper-presentations">
+    <div class="paper-presentations-heading">Presentations</div>
+    <ul class="discussion-details">
+      {{ range . }}
+      <li>{{ .event }}{{ with .location }} <span aria-hidden="true">·</span> {{ . }}{{ end }}{{ with .date }} <span aria-hidden="true">·</span> {{ . }}{{ end }}</li>
+      {{ end }}
+    </ul>
+  </div>
+  {{ end }}
+
   {{/* MLA Style */}}
   {{ else }}
 
@@ -180,6 +191,17 @@
   </div>
   {{ else if and $summary (not $is_discussion) }}
   <div class="pub-abstract">{{ $summary }}</div>
+  {{ end }}
+
+  {{ with $item.Params.presentations }}
+  <div class="paper-presentations">
+    <div class="paper-presentations-heading">Presentations</div>
+    <ul class="discussion-details">
+      {{ range . }}
+      <li>{{ .event }}{{ with .location }} <span aria-hidden="true">·</span> {{ . }}{{ end }}{{ with .date }} <span aria-hidden="true">·</span> {{ . }}{{ end }}</li>
+      {{ end }}
+    </ul>
+  </div>
   {{ end }}
 
   {{ end }}
