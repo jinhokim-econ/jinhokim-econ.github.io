@@ -6,6 +6,14 @@
 {{ $summary = $summary | page.RenderString }}
 {{ $is_working_paper := eq $item.Section "working_papers" }}
 {{ $is_discussion := eq $item.Section "discussions" }}
+{{ $draft_link_enabled := true }}
+{{ if isset $item.Params "draft_link_enabled" }}
+  {{ $draft_link_enabled = $item.Params.draft_link_enabled }}
+{{ end }}
+{{ $title_has_link := not $item.Params.no_detail_page }}
+{{ if and $is_working_paper (not $draft_link_enabled) }}
+  {{ $title_has_link = false }}
+{{ end }}
 {{ $title_url := $item.RelPermalink }}
 {{ if or $is_working_paper $is_discussion }}
   {{ with $item.Resources.GetMatch "*.pdf" }}
@@ -43,7 +51,7 @@
   {{/* APA Style */}}
   {{ if eq (site.Params.hugoblox.content.citations.style | default "apa") "apa" }}
 
-  {{ if $item.Params.no_detail_page }}
+  {{ if not $title_has_link }}
   <span>{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
   {{ else }}
   <a href="{{ $title_url }}" class="underline">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
@@ -125,7 +133,7 @@
   {{/* MLA Style */}}
   {{ else }}
 
-  {{ if $item.Params.no_detail_page }}
+  {{ if not $title_has_link }}
   <span>{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
   {{ else }}
   <a href="{{ $title_url }}">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
