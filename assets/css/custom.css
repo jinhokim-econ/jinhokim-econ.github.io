@@ -103,6 +103,58 @@
   color: #a1a1aa;
 }
 
+.view-citation .discussion-details {
+  margin-top: 0.55rem;
+  padding-left: 1.15rem;
+  list-style: disc;
+  color: #52525b;
+  font-size: 0.92rem;
+  line-height: 1.55;
+}
+
+.view-citation .discussion-details li + li {
+  margin-top: 0.12rem;
+}
+
+.view-citation .discussion-details li::marker {
+  color: #a1a1aa;
+}
+
+.view-citation .discussion-detail-label {
+  color: #3f3f46;
+  font-weight: 600;
+}
+
+.view-citation .discussion-details a {
+  color: var(--color-primary-600);
+  text-decoration: underline;
+  text-decoration-color: var(--color-primary-300);
+  text-underline-offset: 2px;
+}
+
+.view-citation .discussion-details a:hover {
+  color: var(--color-primary-700);
+  text-decoration-color: currentColor;
+}
+
+.dark .view-citation .discussion-details {
+  color: #a1a1aa;
+}
+
+.dark .view-citation .discussion-detail-label {
+  color: #d4d4d8;
+}
+
+.dark .view-citation .discussion-details a {
+  color: var(--color-primary-400);
+  text-decoration-color: var(--color-primary-700);
+}
+
+.dark .view-citation .discussion-details a:hover {
+  color: var(--color-primary-300);
+  text-decoration-color: currentColor;
+}
+
 /* Hide site-wide social/share icons (X/Twitter, Facebook, LinkedIn, WhatsApp, mailto)
    This is a quick, reversible way to remove the share buttons and author contact
    icons from the page footers. Remove these rules to restore icons. */

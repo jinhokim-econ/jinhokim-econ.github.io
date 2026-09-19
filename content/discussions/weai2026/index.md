@@ -16,6 +16,8 @@ location: Denver, Colorado, USA
 summary: Discussion slides for **["New Results on the Disparities between Same-Sex and Different-Sex Couples in the Home Mortgage Market"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597809)** by Nir Eilam and Yeonjoon Lee, presented at the WEAI Annual Conference in Denver, Colorado.
 abstract: |
   Discussion slides for **["New Results on the Disparities between Same-Sex and Different-Sex Couples in the Home Mortgage Market"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597809)** by Nir Eilam and Yeonjoon Lee.
+paper_authors: "Nir Eilam and Yeonjoon Lee"
+paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4597809"
 
 # Talk start and end times.
 #event_start: '2026-06-29T00:00:00Z'

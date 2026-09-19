@@ -16,6 +16,8 @@ location: Orlando, Florida, USA
 summary: Discussion slides for **["The Value of Mortgage Choice"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311)** by Boutros, Clara, and Kartashova (2024), presented at the SFA Annual Meeting 2025 in Orlando, Florida.
 abstract: |
   Discussion slides for **["The Value of Mortgage Choice"](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311)** by Boutros, Clara, and Kartashova (2024).
+paper_authors: "Michael Boutros, Nuno Clara, and Katya Kartashova"
+paper_url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5018311"
 
 # Talk start and end times.
 #event_start: '2025-11-19T09:00:00Z'

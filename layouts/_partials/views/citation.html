@@ -48,7 +48,7 @@
   {{ else }}
   <a href="{{ $title_url }}" class="underline">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
   {{ end }}
-  ({{- $year -}}).
+  {{ if not $is_discussion }}({{- $year -}}).{{ end }}
   {{ with $coauthor_text }}
   <span class="pub-coauthors italic">{{ . | markdownify }}</span>
   {{ end }}
@@ -66,6 +66,23 @@
   <div class="flex flex-wrap space-x-3">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
+  {{ end }}
+
+  {{ if $is_discussion }}
+  <ul class="discussion-details">
+    {{ with $item.Params.paper_authors }}
+    <li>
+      <span class="discussion-detail-label">Paper by:</span>
+      {{ . }}{{ with $item.Params.paper_url }} <span aria-hidden="true">·</span> <a href="{{ . }}" target="_blank" rel="noopener">Original paper</a>{{ end }}
+    </li>
+    {{ end }}
+    {{ with $item.Params.event_name }}
+    <li>
+      <span class="discussion-detail-label">Presented at:</span>
+      {{ with $item.Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ . }}{{ if $item.Params.event_url }}</a>{{ end }}{{ with $item.Params.location }} <span aria-hidden="true">·</span> {{ . }}{{ end }} <span aria-hidden="true">·</span> {{ $year }}
+    </li>
+    {{ end }}
+  </ul>
   {{ end }}
 
   {{ if and $is_working_paper $abstract }}
@@ -110,7 +127,7 @@
   {{ else if $item.Params.publication }}
     {{- $item.Params.publication | markdownify -}},
   {{ end }}
-  {{- $year -}}.
+  {{ if not $is_discussion }}{{- $year -}}.{{ end }}
 
   {{ with $item.Params.manuscript_note }}
   <div class="mt-1 text-sm italic">{{ . }}</div>
@@ -120,6 +137,23 @@
   <div class="flex flex-wrap space-x-3">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
+  {{ end }}
+
+  {{ if $is_discussion }}
+  <ul class="discussion-details">
+    {{ with $item.Params.paper_authors }}
+    <li>
+      <span class="discussion-detail-label">Paper by:</span>
+      {{ . }}{{ with $item.Params.paper_url }} <span aria-hidden="true">·</span> <a href="{{ . }}" target="_blank" rel="noopener">Original paper</a>{{ end }}
+    </li>
+    {{ end }}
+    {{ with $item.Params.event_name }}
+    <li>
+      <span class="discussion-detail-label">Presented at:</span>
+      {{ with $item.Params.event_url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ end }}{{ . }}{{ if $item.Params.event_url }}</a>{{ end }}{{ with $item.Params.location }} <span aria-hidden="true">·</span> {{ . }}{{ end }} <span aria-hidden="true">·</span> {{ $year }}
+    </li>
+    {{ end }}
+  </ul>
   {{ end }}
 
   {{ if and $is_working_paper $abstract }}
