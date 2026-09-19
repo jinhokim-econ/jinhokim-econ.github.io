@@ -15,3 +15,68 @@
   </p>
 
 </footer>
+
+<script>
+  (() => {
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    document.querySelectorAll('.pub-abstract-toggle').forEach((button) => {
+      const panel = document.getElementById(button.getAttribute('aria-controls'));
+      if (!panel) return;
+
+      button.addEventListener('click', () => {
+        const isOpen = button.getAttribute('aria-expanded') === 'true';
+        button.setAttribute('aria-expanded', String(!isOpen));
+
+        if (isOpen) {
+          if (prefersReducedMotion) {
+            panel.classList.remove('is-open');
+            panel.hidden = true;
+            panel.style.height = '';
+            return;
+          }
+
+          panel.style.height = `${panel.scrollHeight}px`;
+          requestAnimationFrame(() => {
+            panel.classList.remove('is-open');
+            panel.style.height = '0px';
+          });
+
+          const finishClosing = (event) => {
+            if (event.propertyName !== 'height') return;
+            panel.removeEventListener('transitionend', finishClosing);
+            if (button.getAttribute('aria-expanded') === 'false') {
+              panel.hidden = true;
+              panel.style.height = '';
+            }
+          };
+          panel.addEventListener('transitionend', finishClosing);
+          return;
+        }
+
+        panel.hidden = false;
+        panel.style.height = '0px';
+
+        if (prefersReducedMotion) {
+          panel.classList.add('is-open');
+          panel.style.height = 'auto';
+          return;
+        }
+
+        requestAnimationFrame(() => {
+          panel.classList.add('is-open');
+          panel.style.height = `${panel.scrollHeight}px`;
+        });
+
+        const finishOpening = (event) => {
+          if (event.propertyName !== 'height') return;
+          panel.removeEventListener('transitionend', finishOpening);
+          if (button.getAttribute('aria-expanded') === 'true') {
+            panel.style.height = 'auto';
+          }
+        };
+        panel.addEventListener('transitionend', finishOpening);
+      });
+    });
+  })();
+</script>

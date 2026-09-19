@@ -7,7 +7,7 @@
 }
 
 .view-citation .pub-abstract {
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
   font-size: 1.0rem;
   line-height: 1.6;
   color: #52525b;
@@ -20,6 +20,77 @@
 
 .view-citation .pub-abstract p {
   margin: 0;
+}
+
+/* Compact abstract disclosure, adapted to the site's existing type and colors. */
+.view-citation .pub-abstract-disclosure {
+  margin-top: 0.7rem;
+}
+
+.view-citation .pub-abstract-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--color-primary-600);
+  cursor: pointer;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition: color 150ms ease;
+}
+
+.view-citation .pub-abstract-toggle:hover {
+  color: var(--color-primary-700);
+}
+
+.view-citation .pub-abstract-toggle:focus-visible {
+  border-radius: 0.125rem;
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 3px;
+}
+
+.view-citation .pub-abstract-chevron {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  transform: translateY(-0.1rem) rotate(-45deg);
+  transition: transform 220ms ease;
+}
+
+.view-citation .pub-abstract-toggle[aria-expanded="true"] .pub-abstract-chevron {
+  transform: translateY(-0.1rem) rotate(45deg);
+}
+
+.view-citation .pub-abstract-collapse {
+  height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: height 300ms ease, opacity 220ms ease;
+}
+
+.view-citation .pub-abstract-collapse.is-open {
+  opacity: 1;
+}
+
+.dark .view-citation .pub-abstract-toggle {
+  color: var(--color-primary-400);
+}
+
+.dark .view-citation .pub-abstract-toggle:hover {
+  color: var(--color-primary-300);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .view-citation .pub-abstract-collapse,
+  .view-citation .pub-abstract-chevron {
+    transition: none;
+  }
 }
 
 .view-citation .pub-coauthors {

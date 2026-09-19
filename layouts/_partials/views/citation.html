@@ -4,6 +4,22 @@
 {{ $has_attachments := partial "functions/has_attachments" $item }}
 {{ $summary := partial "functions/get_summary" $item }}
 {{ $summary = $summary | page.RenderString }}
+{{ $is_working_paper := eq $item.Section "working_papers" }}
+{{ $is_discussion := eq $item.Section "discussions" }}
+{{ $title_url := $item.RelPermalink }}
+{{ if or $is_working_paper $is_discussion }}
+  {{ with $item.Resources.GetMatch "*.pdf" }}
+    {{ $title_url = .RelPermalink }}
+  {{ end }}
+{{ end }}
+{{ $abstract := "" }}
+{{ with $item.Params.abstract }}
+  {{ $abstract = . | page.RenderString }}
+{{ else }}
+  {{ $abstract = $summary }}
+{{ end }}
+{{ $abstract_id := printf "abstract-%s" ($item.RelPermalink | anchorize) }}
+{{ $abstract_button_id := printf "%s-button" $abstract_id }}
 {{ $coauthor_text := "" }}
 {{ with $item.Params.coauthors }}
   {{ $coauthor_text = . }}
@@ -30,7 +46,7 @@
   {{ if $item.Params.no_detail_page }}
   <span>{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
   {{ else }}
-  <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
+  <a href="{{ $title_url }}" class="underline">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
   {{ end }}
   ({{- $year -}}).
   {{ with $coauthor_text }}
@@ -46,13 +62,35 @@
   <div class="mt-1 text-sm italic">{{ . }}</div>
   {{ end }}
 
-  {{ if $has_attachments }}
+  {{ if and $has_attachments (not (or $is_working_paper $is_discussion)) }}
   <div class="flex flex-wrap space-x-3">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
   {{ end }}
 
-  {{ if $summary }}
+  {{ if and $is_working_paper $abstract }}
+  <div class="pub-abstract-disclosure">
+    <button
+      id="{{ $abstract_button_id }}"
+      class="pub-abstract-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="{{ $abstract_id }}"
+    >
+      <span>Abstract</span>
+      <span class="pub-abstract-chevron" aria-hidden="true"></span>
+    </button>
+    <div
+      id="{{ $abstract_id }}"
+      class="pub-abstract-collapse"
+      role="region"
+      aria-labelledby="{{ $abstract_button_id }}"
+      hidden
+    >
+      <div class="pub-abstract">{{ $abstract }}</div>
+    </div>
+  </div>
+  {{ else if and $summary (not $is_discussion) }}
   <div class="pub-abstract">{{ $summary }}</div>
   {{ end }}
 
@@ -62,7 +100,7 @@
   {{ if $item.Params.no_detail_page }}
   <span>{{ $item.Title }}</span>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
   {{ else }}
-  <a href="{{ $item.RelPermalink }}">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
+  <a href="{{ $title_url }}">{{ $item.Title }}</a>{{ with $item.Params.title_note }} <span class="italic">({{ . }})</span>{{ end }}.
   {{ end }}
   {{ with $coauthor_text }}
   <span class="pub-coauthors italic">{{ . | markdownify }}</span>
@@ -78,13 +116,35 @@
   <div class="mt-1 text-sm italic">{{ . }}</div>
   {{ end }}
 
-  {{ if $has_attachments }}
+  {{ if and $has_attachments (not (or $is_working_paper $is_discussion)) }}
   <div class="flex flex-wrap space-x-3">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
   {{ end }}
 
-  {{ if $summary }}
+  {{ if and $is_working_paper $abstract }}
+  <div class="pub-abstract-disclosure">
+    <button
+      id="{{ $abstract_button_id }}"
+      class="pub-abstract-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="{{ $abstract_id }}"
+    >
+      <span>Abstract</span>
+      <span class="pub-abstract-chevron" aria-hidden="true"></span>
+    </button>
+    <div
+      id="{{ $abstract_id }}"
+      class="pub-abstract-collapse"
+      role="region"
+      aria-labelledby="{{ $abstract_button_id }}"
+      hidden
+    >
+      <div class="pub-abstract">{{ $abstract }}</div>
+    </div>
+  </div>
+  {{ else if and $summary (not $is_discussion) }}
   <div class="pub-abstract">{{ $summary }}</div>
   {{ end }}
 
