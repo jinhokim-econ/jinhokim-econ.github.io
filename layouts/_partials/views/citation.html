@@ -8,6 +8,10 @@
 {{ $is_work_in_progress := eq $item.Section "work-in-progress" }}
 {{ $is_research_paper := or $is_working_paper $is_work_in_progress }}
 {{ $is_discussion := eq $item.Section "discussions" }}
+{{ $abstract_enabled := true }}
+{{ if isset $item.Params "abstract_enabled" }}
+  {{ $abstract_enabled = $item.Params.abstract_enabled }}
+{{ end }}
 {{ $draft_link_enabled := true }}
 {{ if isset $item.Params "draft_link_enabled" }}
   {{ $draft_link_enabled = $item.Params.draft_link_enabled }}
@@ -110,7 +114,8 @@
   </ul>
   {{ end }}
 
-  {{ if and $is_research_paper $abstract }}
+  {{ if $is_research_paper }}
+  {{ if and $abstract_enabled $abstract }}
   <div class="pub-abstract-disclosure">
     <button
       id="{{ $abstract_button_id }}"
@@ -132,6 +137,7 @@
       <div class="pub-abstract">{{ $abstract }}</div>
     </div>
   </div>
+  {{ end }}
   {{ else if and $summary (not $is_discussion) }}
   <div class="pub-abstract">{{ $summary }}</div>
   {{ end }}
@@ -192,7 +198,8 @@
   </ul>
   {{ end }}
 
-  {{ if and $is_research_paper $abstract }}
+  {{ if $is_research_paper }}
+  {{ if and $abstract_enabled $abstract }}
   <div class="pub-abstract-disclosure">
     <button
       id="{{ $abstract_button_id }}"
@@ -214,6 +221,7 @@
       <div class="pub-abstract">{{ $abstract }}</div>
     </div>
   </div>
+  {{ end }}
   {{ else if and $summary (not $is_discussion) }}
   <div class="pub-abstract">{{ $summary }}</div>
   {{ end }}

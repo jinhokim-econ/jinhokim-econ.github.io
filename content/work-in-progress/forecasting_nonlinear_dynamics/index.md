@@ -14,6 +14,7 @@ summary: >-
   This project studies whether the flexibility of local projections can be combined with high-dimensional data to improve crisis forecasting, allowing predictive signals to be extracted flexibly from a rich information set.
 draft_link_enabled: false
 draft_url: ""
+abstract_enabled: false
 featured: true
 no_detail_page: true
 build:
