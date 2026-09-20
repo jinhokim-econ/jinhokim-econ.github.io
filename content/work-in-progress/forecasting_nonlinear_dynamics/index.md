@@ -8,7 +8,12 @@ date: 2026-01-01T00:00:00Z
 publication: ""
 publication_short: ""
 coauthors: "with James Cloyne and Òscar Jordà"
-summary: ""
+abstract: >-
+  This project studies how local projections and large datasets can be combined to forecast nonlinear economic dynamics.
+summary: >-
+  This project studies how local projections and large datasets can be combined to forecast nonlinear economic dynamics.
+draft_link_enabled: false
+draft_url: ""
 featured: true
 no_detail_page: true
 build:

@@ -5,17 +5,33 @@
 {{ $summary := partial "functions/get_summary" $item }}
 {{ $summary = $summary | page.RenderString }}
 {{ $is_working_paper := eq $item.Section "working_papers" }}
+{{ $is_work_in_progress := eq $item.Section "work-in-progress" }}
+{{ $is_research_paper := or $is_working_paper $is_work_in_progress }}
 {{ $is_discussion := eq $item.Section "discussions" }}
 {{ $draft_link_enabled := true }}
 {{ if isset $item.Params "draft_link_enabled" }}
   {{ $draft_link_enabled = $item.Params.draft_link_enabled }}
 {{ end }}
 {{ $title_has_link := not $item.Params.no_detail_page }}
-{{ if and $is_working_paper (not $draft_link_enabled) }}
-  {{ $title_has_link = false }}
-{{ end }}
 {{ $title_url := $item.RelPermalink }}
-{{ if or $is_working_paper $is_discussion }}
+{{ if $is_research_paper }}
+  {{ $title_has_link = false }}
+  {{ if $draft_link_enabled }}
+    {{ with $item.Params.draft_url }}
+      {{ $title_url = . }}
+      {{ $title_has_link = true }}
+    {{ else }}
+      {{ with $item.Resources.GetMatch "*.pdf" }}
+        {{ $title_url = .RelPermalink }}
+        {{ $title_has_link = true }}
+      {{ else }}
+        {{ if not $item.Params.no_detail_page }}
+          {{ $title_has_link = true }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ else if $is_discussion }}
   {{ with $item.Resources.GetMatch "*.pdf" }}
     {{ $title_url = .RelPermalink }}
   {{ end }}
@@ -26,7 +42,8 @@
 {{ else }}
   {{ $abstract = $summary }}
 {{ end }}
-{{ $abstract_id := printf "abstract-%s" ($item.RelPermalink | anchorize) }}
+{{ $abstract_key := $item.RelPermalink | default $item.Title | anchorize }}
+{{ $abstract_id := printf "abstract-%s" $abstract_key }}
 {{ $abstract_button_id := printf "%s-button" $abstract_id }}
 {{ $coauthor_text := "" }}
 {{ with $item.Params.coauthors }}
@@ -70,7 +87,7 @@
   <div class="mt-1 text-sm italic">{{ . }}</div>
   {{ end }}
 
-  {{ if and $has_attachments (not (or $is_working_paper $is_discussion)) }}
+  {{ if and $has_attachments (not (or $is_research_paper $is_discussion)) }}
   <div class="flex flex-wrap space-x-3">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
@@ -93,7 +110,7 @@
   </ul>
   {{ end }}
 
-  {{ if and $is_working_paper $abstract }}
+  {{ if and $is_research_paper $abstract }}
   <div class="pub-abstract-disclosure">
     <button
       id="{{ $abstract_button_id }}"
@@ -152,7 +169,7 @@
   <div class="mt-1 text-sm italic">{{ . }}</div>
   {{ end }}
 
-  {{ if and $has_attachments (not (or $is_working_paper $is_discussion)) }}
+  {{ if and $has_attachments (not (or $is_research_paper $is_discussion)) }}
   <div class="flex flex-wrap space-x-3">
     {{ partial "page_links" (dict "page" $item "is_list" 1) }}
   </div>
@@ -175,7 +192,7 @@
   </ul>
   {{ end }}
 
-  {{ if and $is_working_paper $abstract }}
+  {{ if and $is_research_paper $abstract }}
   <div class="pub-abstract-disclosure">
     <button
       id="{{ $abstract_button_id }}"

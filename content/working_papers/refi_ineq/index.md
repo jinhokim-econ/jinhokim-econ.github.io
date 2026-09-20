@@ -35,6 +35,7 @@ summary: >-
 manuscript_note: "Manuscript forthcoming. Draft available upon request."
 title_note: "Job Market Paper"
 draft_link_enabled: false
+draft_url: ""
 presentations:
   - event: "WEAI Annual Conference"
     location: "Denver, USA"
