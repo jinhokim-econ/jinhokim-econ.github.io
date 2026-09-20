@@ -151,7 +151,7 @@ sections:
 
           <div class="rounded-xl border border-gray-200 bg-white p-6 shadow-md dark:border-gray-700 dark:bg-gray-900">
             <div class="text-lg font-bold text-gray-900 dark:text-white">Nicolas Caramp</div>
-            <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Assistant Professor of Economics</div>
+            <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Associate Professor of Economics</div>
             <div class="text-base text-gray-600 dark:text-gray-300">University of California, Davis</div>
             <a class="mt-4 inline-block text-base font-semibold text-primary-600 underline dark:text-primary-400" href="mailto:ncaramp@ucdavis.edu">ncaramp@ucdavis.edu</a>
           </div>
