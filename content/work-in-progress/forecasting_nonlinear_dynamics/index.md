@@ -9,9 +9,9 @@ publication: ""
 publication_short: ""
 coauthors: "with James Cloyne and Òscar Jordà"
 abstract: >-
-  This project studies how local projections and large datasets can be combined to forecast nonlinear economic dynamics.
+  This project studies whether the flexibility of local projections can be combined with high-dimensional data to improve crisis forecasting, allowing predictive signals to be extracted flexibly from a rich information set.
 summary: >-
-  This project studies how local projections and large datasets can be combined to forecast nonlinear economic dynamics.
+  This project studies whether the flexibility of local projections can be combined with high-dimensional data to improve crisis forecasting, allowing predictive signals to be extracted flexibly from a rich information set.
 draft_link_enabled: false
 draft_url: ""
 featured: true

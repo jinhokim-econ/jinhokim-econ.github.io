@@ -191,7 +191,11 @@
    This is a quick, reversible way to remove the share buttons and author contact
    icons from the page footers. Remove these rules to restore icons. */
 a[href*="twitter.com"],
-a[href*="x.com"],
+a[href^="https://x.com"],
+a[href^="http://x.com"],
+a[href^="//x.com"],
+a[href^="https://www.x.com"],
+a[href^="http://www.x.com"],
 a[href*="facebook.com"],
 a[href*="whatsapp:"] {
   display: none !important;
