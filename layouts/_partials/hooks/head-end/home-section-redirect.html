@@ -1,0 +1,6 @@
+{{ with .Params.redirect_to_home }}
+  <meta http-equiv="refresh" content="0;url={{ . }}">
+  <script>
+    window.location.replace({{ . | jsonify | safeJS }});
+  </script>
+{{ end }}

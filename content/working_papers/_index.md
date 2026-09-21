@@ -1,6 +1,11 @@
 ---
 title: Publications
 cms_exclude: true
+private: true
+redirect_to_home: '/#research'
+cascade:
+  private: true
+  redirect_to_home: '/#research'
 
 # View.
 view: citation

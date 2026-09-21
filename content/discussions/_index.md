@@ -1,6 +1,11 @@
 ---
 title: Discussions
 cms_exclude: true
+private: true
+redirect_to_home: '/#discussions'
+cascade:
+  private: true
+  redirect_to_home: '/#discussions'
 #url: talk
 
 # View

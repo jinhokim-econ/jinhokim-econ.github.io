@@ -35,12 +35,14 @@ build:
   writeStats: true
 enableGitInfo: false
 summaryLength: 30
+disableKinds: [taxonomy, term]
 pagination:
+  disableAliases: true
   pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+ignoreFiles: [".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_cache$", "content/notes/"]
 disableAliases: true
 outputs:
   home: [HTML, RSS, headers, redirects, backlinks]
