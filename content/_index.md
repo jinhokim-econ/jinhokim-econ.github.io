@@ -1,11 +1,11 @@
 ---
 # Leave the homepage title empty to use the site title
 title: 'Jinho Kim'
-summary: 'Personal website of Jinho Kim, Economist at the Bank of Korea. Research in macroeconomics, household finance, and real estate.'
+summary: 'Jinho Kim is an Economist at the Bank of Korea and a former UC Davis Economics PhD Candidate researching macroeconomics, household finance, and real estate.'
 date: 2022-10-24
 type: landing
 seo:
-  title: Jinho Kim | Economist at the Bank of Korea
+  title: Jinho Kim | Bank of Korea Economist | Former UC Davis PhD Candidate
 
 design:
   # Default section spacing
