@@ -14,7 +14,7 @@ abstract: >-
   Conditional on refinancing being financially
   advantageous, bottom-income-quintile borrowers refinance 43 percent less often than the
   top quintile. 
-  One in five refinances within four months in the top quintile and ten months in the bottom. 
+  One in five borrowers refinance within four months of becoming in the money in the top quintile, compared with ten months in the bottom quintile.
   Yet the savings the bottom quintile leaves unrealized equal 6.7 percent of its monthly income,
   highest among all income groups.
   After a policy-induced 1 percentage point fall in mortgage rates, the top-bottom gap in 
