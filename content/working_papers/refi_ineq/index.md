@@ -22,7 +22,7 @@ abstract: >-
   percent, with gains concentrated among lower-middle-income households.
 summary: >-
     Lower-income borrowers refinance less often and more slowly when interest rates fall, leaving substantial savings unrealized. I show that differences in refinancing gains and the cost of attention jointly explain this income gradient, and that reducing attention frictions can strengthen the consumption response to monetary easing.
-#manuscript_note: "Manuscript forthcoming. Draft available upon request."
+manuscript_note: "Manuscript forthcoming. Draft available upon request."
 title_note: "Job Market Paper"
 draft_link_enabled: False
 draft_url: ""
