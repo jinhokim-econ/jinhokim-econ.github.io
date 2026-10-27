@@ -33,7 +33,6 @@ abstract: >-
  Two household-level results connect this pattern to behavior. In mortgage application data, young applicants increase their application intensity 4.3 to 6.6 percent more than older applicants during local booms; and after an identified credit-supply easing, house prices rise more, and more persistently, in younger areas. 
  We interpret these facts with a standard annual life-cycle housing model with tenure choice. 
  Fed the same identified credit shock, a younger economy amplifies the house-price response and reproduces the impact age gradient. We also provide suggestive evidence that matching its persistence may require adaptive house-price expectations. 
- Demographic composition thus emerges as a demand-side state variable for housing-boom risk.
 # Summary. An optional shortened abstract.
 summary: >-
  Younger economies are more vulnerable to housing booms: across countries and U.S.  counties, a higher young-to-old population ratio predicts a greater likelihood and stronger response of house prices to credit expansions. A life-cycle housing model shows how demographic composition amplifies the same credit shock through housing demand.
