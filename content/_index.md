@@ -146,6 +146,8 @@ sections:
             <div class="text-lg font-bold text-gray-900 dark:text-white">Òscar Jordà</div>
             <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Professor of Economics</div>
             <div class="text-base text-gray-600 dark:text-gray-300">University of California, Davis</div>
+            <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Senior Policy Advisor</div>
+            <div class="text-base text-gray-600 dark:text-gray-300">Federal Reserve Bank of San Francisco</div>
             <a class="mt-4 inline-block text-base font-semibold text-primary-600 underline dark:text-primary-400" href="mailto:ojorda@ucdavis.edu">ojorda@ucdavis.edu</a>
           </div>
 
@@ -160,6 +162,8 @@ sections:
             <div class="text-lg font-bold text-gray-900 dark:text-white">Sanjay R. Singh</div>
             <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Associate Professor of Economics</div>
             <div class="text-base text-gray-600 dark:text-gray-300">University of California, Davis</div>
+            <div class="mt-2 text-base text-gray-600 dark:text-gray-300">Research Advisor</div>
+            <div class="text-base text-gray-600 dark:text-gray-300">Federal Reserve Bank of San Francisco</div>
             <a class="mt-4 inline-block text-base font-semibold text-primary-600 underline dark:text-primary-400" href="mailto:sjrsingh@ucdavis.edu">sjrsingh@ucdavis.edu</a>
           </div>
         </div>
