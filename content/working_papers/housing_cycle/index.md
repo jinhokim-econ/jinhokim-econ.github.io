@@ -28,11 +28,7 @@ publication_types:
 #publication_short: ""
 
 abstract: >-
- Demographic age structure systematically shapes housing-boom vulnerability. Using an OECD panel of 29 countries and a U.S. county panel, we show that locations with a higher young-to-old population ratio are more likely to experience large housing booms 
- a one-unit increase in the ratio raises boom probability by 18.6 percentage points across countries and 4.3 points across counties, robust to location and time fixed effects, income, and housing-supply controls. 
- Two household-level results connect this pattern to behavior. In mortgage application data, young applicants increase their application intensity 4.3 to 6.6 percent more than older applicants during local booms; and after an identified credit-supply easing, house prices rise more, and more persistently, in younger areas. 
- We interpret these facts with a standard annual life-cycle housing model with tenure choice. 
- Fed the same identified credit shock, a younger economy amplifies the house-price response and reproduces the impact age gradient. We also provide suggestive evidence that matching its persistence may require adaptive house-price expectations. 
+ We show that the age structure of the population systematically shapes housing-boom vulnerability. Across OECD countries and U.S. counties, a one-unit increase in the young-to-old ratio raises the probability of a large housing boom by 18.6 and 4.3 percentage points, respectively. In mortgage application data, young applicants increase their application intensity 4.3 to 6.6 percent more than older applicants during local booms, and after an identified credit-supply easing, house prices rise more, and more persistently, in younger areas. We then show that a life-cycle housing model accounts for the larger initial price response in younger economies, because young households are concentrated at the margin between owning and renting and respond most to credit easing.
 # Summary. An optional shortened abstract.
 summary: >-
  Younger economies are more vulnerable to housing booms: across countries and U.S.  counties, a higher young-to-old population ratio predicts a greater likelihood and stronger response of house prices to credit expansions. A life-cycle housing model shows how demographic composition amplifies the same credit shock through housing demand.
