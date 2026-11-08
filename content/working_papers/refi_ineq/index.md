@@ -9,17 +9,18 @@ publication_types:
 publication: ""
 publication_short: ""
 abstract: >-
-  Lower-income households are far less likely to capture the gains from refinancing when
-  interest rates fall. Conditional on refinancing being financially advantageous,
-  bottom-income-quintile borrowers refinance 43 percent less often than the top quintile and
-  act more slowly. Yet the savings they leave unrealized equal 6.7 percent of monthly income,
-  highest among all income groups. After a policy-induced 1 percentage point fall in mortgage
-  rates, the top-bottom gap in cumulative refinancing reaches 4.3 percentage points at two
-  quarters, against an average of 2.7. I explain these facts with a heterogeneous-agent model
-  in which households choose how closely to monitor their mortgage, and the income gradient
-  requires an attention cost that falls with income. A notification policy calibrated to
-  field-experimental evidence raises the five-year consumption response to a rate cut by 12.3
-  percent, with gains concentrated among lower-middle-income households.
+  I document that lower-income households are far less likely to capture the gains from
+  refinancing when interest rates fall, and I quantify how this gap affects the transmission of
+  monetary policy. When refinancing is financially advantageous, bottom-income-quintile
+  borrowers refinance 43 percent less often than the top quintile. They also take longer to act
+  and respond less to monetary policy shocks, even though refinancing would lower their payments
+  the most relative to income. I explain this gradient with a heterogeneous-agent model in which
+  households choose how closely to monitor their mortgage. Differences in refinancing gains
+  account for about one third of the income gradient, and the rest requires a price of attention
+  that falls with income. A notification policy calibrated to field-experimental evidence raises
+  the five-year consumption response to a rate cut by 12.3 percent, even after households reduce
+  their own monitoring, with the largest proportional gains at the bottom of the income
+  distribution.
 summary: >-
     Lower-income borrowers refinance less often and more slowly when interest rates fall, leaving substantial savings unrealized. I show that differences in refinancing gains and the cost of attention jointly explain this income gradient, and that reducing attention frictions can strengthen the consumption response to monetary easing.
 manuscript_note: "Manuscript forthcoming. Draft available upon request."
