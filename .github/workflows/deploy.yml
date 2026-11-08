@@ -36,16 +36,16 @@ jobs:
       run: |
         # Install pinned yq version for robust YAML parsing
         YQ_VERSION="v4.44.1"
-        if ! wget -q --tries=3 --waitretry=1 -O /tmp/yq \
+        if wget -q --tries=3 --waitretry=1 -O /tmp/yq \
           "https://github.com/mikefarah/yq/releases/download/${YQ_VERSION}/yq_linux_amd64"; then
-          echo "::error::Failed to download yq"
-          exit 1
+          sudo mv /tmp/yq /usr/local/bin/yq
+          sudo chmod +x /usr/local/bin/yq
+          HOST=$(yq '.deploy.host // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
+        else
+          # GitHub release downloads can fail transiently; parse the one key with sed instead
+          echo "::warning::Failed to download yq, reading deploy.host with sed"
+          HOST=$(sed -n '/^deploy:/,/^[^ ]/s/^ *host: *["'\'']\{0,1\}\([a-z-]*\).*/\1/p' hugoblox.yaml | head -1)
         fi
-        sudo mv /tmp/yq /usr/local/bin/yq
-        sudo chmod +x /usr/local/bin/yq
-        
-        # Read deploy.host from hugoblox.yaml, default to github-pages
-        HOST=$(yq '.deploy.host // ""' hugoblox.yaml 2>/dev/null | grep -v '^null$' || true)
         HOST=${HOST:-github-pages}
         
         # Validate known hosts
