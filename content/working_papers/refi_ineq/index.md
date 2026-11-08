@@ -1,5 +1,5 @@
 ---
-title: "Who Captures the Rate Cut? Endogenous Attention and the Refinancing Channel of Monetary Policy"
+title: "Who Captures the Rate Cut? Income, Attention, and the Refinancing Channel of Monetary Policy"
 authors:
   - me
 date: 2026-01-07T00:00:00Z
