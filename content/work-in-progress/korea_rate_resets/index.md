@@ -1,5 +1,5 @@
 ---
-title: "Absorbing the Reset: Mortgage Payment Shocks and the Cash-Flow Channel in Korea"
+title: "Absorbing Mortgage Rate Resets: Payment Shocks and the Cash-Flow Channel in Korea"
 authors:
   - me
 date: 2026-11-08T00:00:00Z
